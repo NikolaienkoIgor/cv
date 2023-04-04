@@ -127,7 +127,7 @@
 								<h3 class="text-uppercase resume-section-heading mb-4">Projects</h3>
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Shipment theft prediction</h4>
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Shipment theft ML prediction</h4>
 										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">2022-2023</div>
 										
 									</div>
@@ -138,8 +138,8 @@
 										such as clustering of customers, goods, value groups, NLP analyses of stolen goods descriptions, and other 
 										transportation metrics. The final prediction is carried out via an API call 
 										to DataRobot AutoML, where the trained model is located. I developed the end-to-end solution, 
-										which included Python data engineering and AutoML modeling, with the assistance of business counterparts for results validation.
-										The daily predictions serve as the source for generating security tickets, which are then used for further theft investigations by internal detectives.
+										which includes Python data engineering and AutoML modeling, with the assistance of business counterparts as for feature concepts and results validation.
+										The daily predictions serve as the source for generation of security tickets, which are then used for further theft investigations by internal detectives.
 										</p>
 										
 										
@@ -147,24 +147,40 @@
 								</div><!--//item-->
 								<div class="item">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Anomaly detection for Cash-on-delivery product</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Open Source</div>
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Cash-on-delivery anomaly detection</h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">2022</div>
 										
 									</div>
 									<div class="item-content">
-										<p>Implemented anomaly detection system to identify fraudulent Cash-on-Delivery transactions for a retail product, 
-										resulting in a significant reduction in financial losses.</p>
+										<p>The goal of this project was to develop a system for identifying 
+										fraudulent activities related to Cash-on-Delivery shipments in order 
+										to reduce direct financial loss. The solution involved 
+										implementing an anomaly detection reports 
+										fed by rule-based detection logic embedded into Python code above SQL data warehouse pipelines.
+                                        The solution was able to identify regional sites indicating fraudulent activities, 
+										allowing security detectives to take appropriate action. In the first three months 
+										after providing these data to security detectives, seven successful investigations followed. 
+										These investigations not only uncovered single criminal cases but also 
+										organized criminal groups.</p>
 										
 									</div>
 								</div><!--//item-->
 								<div class="item">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">HSC </h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Open Source</div>
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Liability score card of a company division</h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">2021-2022</div>
 										
 									</div>
 									<div class="item-content">
-										<p>You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+										<p>The objective of this project was to develop Tableau dashboards for visualization 
+										of company liabilities related to damage and missing shipments, 
+										with the goal of identifying negative trends in liabilities by sites, 
+										logistics process segments, and products. In course of the project I have created a bundle 
+										of dashboards fed by advanced SQL pipelines. One of the key achievements of this project 
+										was that it provided for the first time a common source of truth for management and
+										hundreds of internal users across the company, 
+										ensuring that everyone had access to the same data and insights. 
+										This helped dramatically to improve management decision-making towards tackling the loss.</p>
 										
 									</div>
 								</div><!--//item-->
@@ -174,7 +190,7 @@
 							<section class="skills-section py-3">
 								<h3 class="text-uppercase resume-section-heading mb-4">Skills</h3>
 								<div class="item">
-									<h4 class="item-title">Technical</h4>
+									<!--<h4 class="item-title">Technical</h4>-->
 									<ul class="list-unstyled resume-skills-list">
 										<li class="mb-2">Azure/Google Cloud</li>
 										<li class="mb-2">Python/Spark/SQL/<li>
@@ -187,6 +203,7 @@
 											<li class="mb-2">NLP/Clustering/Deep Learning</li>
 											<li class="mb-2">CI/CD GitHub</li>
 											<li class="mb-2">JavaScript/HTML/CSS</li>
+											<li class="mb-2">ChatGPT</li>
 										</ul>
 									</div><!--//item-->
 									</section><!--//skills-section-->
@@ -211,10 +228,10 @@
 										<ul class="list-unstyled resume-education-list">
 											<li class="mb-3">
 												<div class="resume-degree font-weight-bold">Data Science DHL Programm</div>
-												<div class="resume-degree-org text-muted">Open Universiteit</div>
+												<div class="resume-degree-org text-muted">Maastricht Open Universiteit</div>
 												<div class="resume-degree-time text-muted">2021 - 2021</div>
 											</li>
-											<li>
+											<li class="mb-3">
 												<div class="resume-degree font-weight-bold">Bachelor of Business Administration</div>
 												<div class="resume-degree-org text-muted">Berlin School of Economics HWR</div>
 												<div class="resume-degree-time text-muted">2008 - 2011</div>
@@ -249,9 +266,8 @@
 						<hr>
 						<div class="resume-footer text-center">
 							<ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
-								<li class="list-inline-item mb-lg-0 me-3"><a class="resume-link" href="#"><i class="fab fa-github-square fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">github.com/username</span></a></li>
-								<li class="list-inline-item mb-lg-0 me-3"><a class="resume-link" href="#"><i class="fab fa-linkedin fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">linkedin.com/in/username</span></a></li>
-								<li class="list-inline-item mb-lg-0 me-lg-3"><a class="resume-link" href="#"><i class="fab fa-twitter-square fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">@twittername</span></a></li>
+								<li class="list-inline-item mb-lg-0 me-3"><a class="resume-link" href="#"><i class="fab fa-github-square fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">github.com/NikolaienkoIgor</span></a></li>
+								<li class="list-inline-item mb-lg-0 me-3"><a class="resume-link" href="#"><i class="fab fa-linkedin fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">linkedin.com/in/igor-nikolaienko-7b622a23/</span></a></li>
 							</ul>
 						</div><!--//resume-footer-->
 					</article>
